@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.login-background {
+    background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 320px;
+    color: #fff;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.terms {
+    font-size: 13px;
+    display: block;
+    margin: 15px 0;
+    text-align: left;
+    color: #ccc;
+}
+
+.terms input {
+    margin-right: 8px;
+}
+
+.terms a {
+    color: #00cfff;
+    text-decoration: none;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f6a623;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+    background-color: #d48806;
+}
